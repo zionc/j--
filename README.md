@@ -7,6 +7,7 @@ My implementation adds the following extensions to j--:
   * do while & for loop
   * switch, break and continue
 * Exception handling
+* Additional binary operators
 * double and long data types
 ## Acknowledgements <br />
 Developed in CS 451 @UMB taught by [Professor Swami](https://swamiiyer.net) <br />
