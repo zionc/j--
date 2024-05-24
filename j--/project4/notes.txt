@@ -1,0 +1,22 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+
+    For Project 4, we included scanning and parsing for multiline comments, long and double basic types,
+    operators, conditional expressions, switch, do-while, for, break and continue statements, exception handlers and
+    interface type declaration. We did this all in the j--.jj file which is the input file to JavaCC that creates the parser
+    and scanner. Using BNF syntax we defined tokens for JavaCC and the parser as well. For the parser, it included two sets of
+    curly braces. The first set handled local variable initialization, the second included the grammar implementation for parsing which is embedded in a
+    try block with error handling. Lastly, java statements, which are syntactic actions, are included between curly braces.
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+   Prof. Swami        Professor    Asked how to define [] in javacc which was ()?
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   ...

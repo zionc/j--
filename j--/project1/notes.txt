@@ -1,0 +1,31 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+
+   This project has two parts. The first part included creating a IsPrime.class file through the use
+   of CLEmitter. This class accepted one integer argument from the command line and printed whether the integer
+   is a prime number or not. In the second part, we added arithmetic operations, bitwise operations and shift operations
+   to the j-- language. In order to do this, the compiler had to scan the tokens, generate an AST and compares it to the
+   j-- grammar then generate the machine code for these operations.
+   ...
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name                 Status       Help Received
+   ----                 ------       -------------
+   Professor Swami      Professor    Confirmed that booleans can be represented by integers.
+
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+    I had a lot of fun doing this and felt like this was a perfect assignment to get introduced to j--. I was thinking
+    of ways to allow j-- to allow this syntax:
+
+    void main() {
+        // code here
+    }
+
+    Instead of the incredibly painful:
+    public static void main(String[] args)

@@ -1,0 +1,20 @@
+1. Provide a high-level description (ie, using minimal amount of technical
+   jargon) of the project in no more than 200 words.
+
+   We added more features to j--. The first being, allowing the scanner to ignore multi line comments. Next, j--'s scanner
+   can now tokenize more operators and reserved words. Finally, j-- can also create tokens for double and long literals.
+
+2. Did you receive help from anyone? List their names, status (classmate, 
+   CS451/651 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   ...                ...          ...
+
+3. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+   The double literals forced me to write a DFA, and once I had the DFA it was easy to implement. Overall very
+   fun!
